@@ -1,8 +1,9 @@
 ﻿#pragma once 
 #include <string_view>
 #include <any>
-#include <boost/container_hash/hash.hpp>
 #include <unordered_map>
+#include <typeindex>
+#include <functional>
 
 template<typename T>
 struct PropertyName : public std::string_view
